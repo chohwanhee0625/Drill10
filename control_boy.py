@@ -32,8 +32,11 @@ def create_world():
     boy = Boy()
     game_world.add_object(boy, 1)
 
-    grass = Grass()
-    game_world.add_object(grass, 0)
+    grass_1 = Grass(400, 70)
+    game_world.add_object(grass_1, 0)
+
+    grass_2 = Grass()
+    game_world.add_object(grass_2, 2)
 
 
 def update_world():
